@@ -1,0 +1,38 @@
+#visualization {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  font-size: 2em;
+  font-family: "Karla", sans-serif;
+}
+
+#subtitle {
+  font-size: 1.10em;
+  font-family: "Karla", sans-serif;
+}
+
+#y-axis-title {
+  font-size: 1.25em;
+  font-family: "Karla", sans-serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+#tooltip {
+  position: absolute;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5%;
+  background-color: white;
+  max-width: 200px;
+}
+
+#legend {
+  position: absolute;
+  border: 1px solid black;
+  transform: translate(800, 2);
+}
